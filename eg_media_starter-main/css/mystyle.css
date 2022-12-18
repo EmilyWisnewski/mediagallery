@@ -1,9 +1,9 @@
 :root {/*-- sets color variables --*/
-    --dark: #444;
+    --dark: pink;
     --ltmid: #DDD;
-    --dkmid: #999;
+    --dkmid: rgb(236, 108, 151);
     --light: #F9F9F9;
-    --accent: #6495ed;
+    --accent: #cc94b2;
   }
   body {
     color: var(--dark); /*-- sets body default font color --*/
@@ -11,7 +11,7 @@
   }
   /*-- default styles for links (in the correct order) --*/
   a {color: var(--accent); font-weight: 500; text-decoration: none; transition: all .2s ease-in-out;}
-  a:visited {color:#305eb3;}
+  a:visited {color:#ee609b;}
   a:hover {color: var(--accent);}
   a:active {color: var(--dkmid);}
   
